@@ -1,0 +1,3 @@
+Project Manager images should be 128x128 pixels, ideally
+png, jpg or webp
+They will automatically be made circular

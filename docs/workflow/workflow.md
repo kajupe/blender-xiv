@@ -1,7 +1,7 @@
 ---
 title: Workflow
 layout: default
-nav_order: 10
+nav_order: 20
 ---
 
 Grander scale workflow details like in which order to do things
