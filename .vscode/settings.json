@@ -1,0 +1,14 @@
+{
+    "markdown.validate.enabled": true,
+    "cSpell.words": [
+        "AETHERBLEND",
+        "Dalamud",
+        "FFXIV",
+        "gltf",
+        "Rigify",
+        "XIVLAUNCHER"
+    ],
+    "cSpell.ignoreWords": [
+        "brainer"
+    ]
+}

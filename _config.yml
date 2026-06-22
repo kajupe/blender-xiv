@@ -12,3 +12,19 @@ aux_links:
 
 search:
     focus_shortcut_key: 'k'
+
+callouts:
+  highlight:
+    color: pink
+  important:
+    title: Important
+    color: yellow
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: orchid
+  warning:
+    title: Warning
+    color: lightcoral
