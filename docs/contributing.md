@@ -39,10 +39,10 @@ In GitHub Desktop, add a new repository by cloning [the blender-xiv repository].
 Once in the folder, right click on some empty space and click `Open in Terminal`. Then, assuming you have Ruby installed correctly, run `bundle install`.  
 That should install a bunch of stuff. Then run `bundle exec jekyll serve` to host the page locally. It will say which ip it's being hosted on, by default it should be [http://127.0.0.1:4000/](http://127.0.0.1:4000/). Then any time you edit a file, such as adding or editing a page located in the `docs` directory, just reload the page and you'll see the changes.
 
-TODO: Investigate what problems arise on each jekyll install, like the Gemfile.lock thing. Will it reset to be limited to windows / whatever?
-
-### Make Something
-Make a change, add a guide, whatever. Detail in [Just The Docs]
+### Make Something (WIP)
+Make a change, add a guide, whatever. Details in [Just The Docs]  
+Main pages should be called index.md  
+Place an author section at the bottom (Not made yet)  
 
 ### Submit your Changes
 Once you're happy with your contribution, give it a Summary / Title in GitHub Desktop as well as a Description. For example the Summary could be "Added a Guide about Mocap Retargetting" and the Description could be anything you want really, relevant information about your contribution. It's mostly for you. Then click `Commit to main`. Then you can click `Push origin` in the new big blue button on the right, to upload it to GitHub.  
