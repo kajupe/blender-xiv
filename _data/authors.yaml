@@ -1,0 +1,35 @@
+########## AUTHORS DATABASE ##########
+
+# Refer to Mr. Example here for how to add yourself and what guideliens are good to follow
+example: # This is your actual name, or your "key". This HAS to be unique from all other authors.
+  name: "Mr. Example" # Display Name, the thing that will actually show up in places
+  avatar: "/assets/authors/example.webp" # Path to PFP, from Root (or so it seems)
+  bio: "Hey guys it's me, Mr. Example!<br>And this is the start of a second paragraph talking about how great I am." # The text that'll be on the About Us page. Use <br> to start a new paragraph.
+  links: # You can have any amount of links to your various socials. Try to keep it within reason though, only link to ones you actually care about and use. Commission sites like VGen is fine too!
+    - label: "Bluesky"
+      url: "https://bsky.app/profile/mr.example"
+    - label: "Email"
+      url: "mailto:mr.example@gmail.com" # The URL can be anything that'd work in an href tag, so things like mailto are perfectly fine
+
+
+##### ACTUAL AUTHORS #####
+
+kaj:
+  name: "Kaj"
+  avatar: "/assets/authors/kaj.jpg"
+  bio: "Hello! I make things like Blender Addons, and I set up this website. Been doing 3D since Blender 2.8 came out in 2019, and studied it at Uni where I also got into compositing."
+  links:
+    - label: "Bluesky"
+      url: "https://bsky.app/profile/kaj.blue"
+    - label: "VGen"
+      url: "https://vgen.co/Kaj"
+
+fioh:
+  name: "Fioh Sion"
+  avatar: "/assets/authors/fioh.webp"
+  bio: "Temp"
+  links:
+    - label: "Bluesky"
+      url: "https://bsky.app/profile/fiohsion.bsky.social"
+    - label: "Email"
+      url: "mailto:fioh.sion.ffxiv@gmail.com"

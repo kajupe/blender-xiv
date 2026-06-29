@@ -3,6 +3,11 @@ title: From Nothing to Something
 parent: Getting Started
 layout: default
 nav_order: 10
+authors:
+  - key: fioh
+    role: "Guide-Writer"
+  - key: kaj
+    role: "Editing"
 ---
 
 # From Nothing to Something

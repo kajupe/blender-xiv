@@ -1,0 +1,19 @@
+{% if page.authors and page.author_footer != false %}
+<div class="page-authors">
+  <h3>Authors</h3>
+  {% for author_item in page.authors %}
+    {% assign author = site.data.authors[author_item.key] %}
+    {% if author %}
+      <div>
+        <a class="author-callout" href="../about_us#about_{{ author_item.key }}">
+            <img src="{{ author.avatar }}" alt="{{ author.name }}" class="author-profile-pic">
+            <span class="author-info">
+                <span class="author-name">{{ author.name }}</span>
+                <span class="author-role">{{ author_item.role }}</span>
+            </span>
+        </a>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+{% endif %}

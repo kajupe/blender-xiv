@@ -1,7 +1,7 @@
 ---
 title: Contributing
 layout: default
-nav_order: 9999
+nav_order: 9990
 ---
 
 # Contributing

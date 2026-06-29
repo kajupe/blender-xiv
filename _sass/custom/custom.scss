@@ -6,16 +6,20 @@
   background-color: red;
 }
 
-/* Custom Profile Callout */
-.profile-callout {
+
+
+/* ########## Author Callout ########## */
+.author-callout {
   display: flex !important; /* Force flexbox layout */
   align-items: center;
   gap: 1.5rem;
-  padding: 1.25rem;
+  padding: 0.5rem;
   background-color: var(--body-background-color);
   border: 1px solid var(--border-color);
   border-radius: 4px;
   // margin: 1.5rem 0;
+  text-decoration: inherit;
+  color: inherit;
 
   @media (max-width: 600px) {
     flex-direction: column;
@@ -23,7 +27,7 @@
   }
 }
 
-.profile-pic {
+.author-profile-pic {
   width: 3rem;
   height: 3rem;
   border-radius: 50%;
@@ -31,18 +35,24 @@
   border: 2px solid var(--border-color);
 }
 
-.profile-info {
+.author-info {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0rem;
 }
 
-.profile-name {
+.author-name {
   margin: 0 !important;
   font-size: 1.25rem;
 }
 
-.profile-links {
+.author-role {
+  margin: 0 !important;
+  font-size: 1rem;
+  opacity: 0.75;
+}
+
+.author-links {
   display: flex;
   gap: 0.75rem;
   flex-wrap: wrap;
@@ -52,6 +62,34 @@
   }
 }
 
+
+
+/* ########## ABOUT PAGE STUFF ########## */
+.about-bio {
+  display:block;
+  padding-left:1.5rem;
+  margin-top:0.75rem;
+  font-style:italic;
+}
+.about-bio br {
+  margin-bottom:0.5rem;
+}
+.about-links {
+  display:flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  padding-left:1.5rem;
+}
+.about-links a {
+  text-decoration: none;
+}
+.about-links a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* ########## CUSTOM TAGS ########## */
 .custom-tags {
   display:flex;
   gap:0.5rem;
@@ -83,6 +121,9 @@
 .custom-tag.hdri {
   background-color: darkgoldenrod;
 }
+
+
+
 
 // Make regular highlight BG less intense
 .highlight {
