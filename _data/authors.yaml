@@ -3,7 +3,7 @@
 # Refer to Mr. Example here for how to add yourself and what guideliens are good to follow
 example: # This is your actual name, or your "key". This HAS to be unique from all other authors.
   name: "Mr. Example" # Display Name, the thing that will actually show up in places
-  avatar: "/assets/authors/example.webp" # Path to PFP, from Root (or so it seems)
+  avatar: "/assets/authors/example.webp" # Path to PFP, from the root directory
   bio: "Hey guys it's me, Mr. Example!<br>And this is the start of a second paragraph talking about how great I am." # The text that'll be on the About Us page. Use <br> to start a new paragraph.
   links: # You can have any amount of links to your various socials. Try to keep it within reason though, only link to ones you actually care about and use. Commission sites like VGen is fine too!
     - label: "Bluesky"

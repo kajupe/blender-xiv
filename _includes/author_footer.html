@@ -6,7 +6,7 @@
     {% if author %}
       <div>
         <a class="author-callout" href="../about_us#about_{{ author_item.key }}">
-            <img src="{{ author.avatar }}" alt="{{ author.name }}" class="author-profile-pic">
+            <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}" class="author-profile-pic">
             <span class="author-info">
                 <span class="author-name">{{ author.name }}</span>
                 {% if author_item.role %}
