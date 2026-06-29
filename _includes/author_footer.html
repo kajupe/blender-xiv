@@ -1,6 +1,14 @@
 {% if page.authors and page.author_footer != false %}
-<div class="page-authors">
+{% if page.authors_id %}
+<div class="page-authors" id="{{ page.authors_id }}">
+{% else %}
+<div class="page-authors" id="authors">
+{% endif %}
+  {% if page.authors_title %}
+  <h3>{{ page.authors_title }}</h3>
+  {% else %}
   <h3>Authors</h3>
+  {% endif %}
   {% for author_item in page.authors %}
     {% assign author = site.data.authors[author_item.key] %}
     {% if author %}

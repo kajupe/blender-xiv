@@ -2,6 +2,11 @@
 title: Contributing
 layout: default
 nav_order: 9990
+authors:
+  - key: kaj
+  - key: fioh
+authors_title: Project Managers
+authors_id: project-managers
 ---
 
 # Contributing
@@ -55,28 +60,3 @@ By this point you have an entirely separate version of the page with your change
 [GitHub Desktop]: https://desktop.github.com/download/
 [Ruby]: https://rubyinstaller.org/
 [Just The Docs]: https://just-the-docs.github.io/just-the-docs/
-
-
-# Contributors
-## Project Managers
-
-<div class="profile-callout">
-    <img src="../assets/project_managers/kaj.jpg" alt="Kaj" class="profile-pic">
-    <div class="profile-info">
-        <h3 class="profile-name">Kaj</h3>
-        <div class="profile-links">
-            <a href="https://bsky.app/profile/kaj.blue" class="">Bluesky</a>
-        </div>
-    </div>
-</div>
-
-<div class="profile-callout">
-    <img src="../assets/project_managers/fioh.webp" alt="Fioh" class="profile-pic">
-    <div class="profile-info">
-        <h3 class="profile-name">Fioh</h3>
-        <div class="profile-links">
-            <a href="https://bsky.app/profile/fiohsion.bsky.social" class="">Bluesky</a>
-            <a href="mailto:fioh.sion.ffxiv@gmail.com" class="">Email</a>
-        </div>
-    </div>
-</div>
