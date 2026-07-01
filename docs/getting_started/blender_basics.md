@@ -3,6 +3,11 @@ title: Blender Basics
 parent: Getting Started
 layout: default
 nav_order: 20
+authors:
+  - key: fioh
+    role: "Guide-Writer"
+  - key: kaj
+    role: "Editing"
 ---
 
 # Blender Basics

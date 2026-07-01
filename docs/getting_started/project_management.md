@@ -3,6 +3,8 @@ title: Start (and Finish) a Project
 parent: Getting Started
 layout: default
 nav_order: 30
+authors:
+  - key: fioh
 ---
 
 # Starting and Finishing Your Projects
