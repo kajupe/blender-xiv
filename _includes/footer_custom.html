@@ -1,1 +1,32 @@
 {% include author_footer.html %}
+
+<script type="text/javascript">
+    function initLightbox() {
+        console.log("Lightbox Init");
+        const images = document.querySelectorAll(".main-content img:not(.no-lightbox)");
+
+        images.forEach((img) => {
+            const link = document.createElement("a");
+            link.className = "glightbox";
+            link.href = img.src;
+            link.style.display = "contents";
+
+            if (img.alt) {
+                link.setAttribute("data-description", img.alt);
+            };
+
+            img.parentNode.insertBefore(link, img);
+            link.appendChild(img);
+        });
+
+        const lightbox = GLightbox({
+            selector: '.glightbox'
+        });
+    }
+
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", initLightbox);
+    } else {
+        initLightbox();
+    };
+</script>

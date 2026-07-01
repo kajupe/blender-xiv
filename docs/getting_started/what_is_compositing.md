@@ -13,6 +13,7 @@ Compositing is, in the most layman of terms, Advanced Photoshop.
 
 We use it to enhace our renders in various ways, usually mostly procedurally using nodes. So in that sense it's not like Photoshop at all, actually.  
 Usually these enhancements are to emulate the behavior of real cameras with things like Bloom, Film Grain, Chromatic Aberration, Lens Dirt, but it can really be anything.  
+You likely know about things like ReShade to apply post-processing effects to games (like FFXIV). That's pretty much exactly what compositing is, except with more control over the result.  
 
 Here's an example of what you can accomplish with compositing:
 <div width="100%" style="display:flex; gap:1rem;">
@@ -29,6 +30,13 @@ And for a more drastic example:
 <br>
 As you can probably tell it's pretty powerful, but is it difficult?  
 Like every digital art it takes some learning before you get good at it, but it's really not bad. Especially not when it comes to the effects I mentioned for emulating a real camera. Just a few simple node setups can make a massive difference in that department.
+
+Here's an example of a very simple compositing setup in Blender that still makes a big difference:
+<div style="display:flex; width:100%; align-items:min-content;">
+    <img src="assets/compositing_example_simple_nodes.jpg" style="flex:2 1 0%; width:0; height:auto;">
+    <video src="assets/compositing_example_simple.webm" type="video/webm" autoplay loop style="flex:1 1 0%; width:0; height:auto;"></video>
+</div>
+
 
 ## How do?
 Compositing can be done in a lot of software. If you're working with still images, even something like Photoshop is *technically* compositing but you have way better options.

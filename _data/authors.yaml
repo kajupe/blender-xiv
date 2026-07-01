@@ -17,7 +17,7 @@ example: # This is your actual name, or your "key". This HAS to be unique from a
 kaj:
   name: "Kaj"
   avatar: "/assets/authors/kaj.jpg"
-  bio: "Hello! I make things like Blender Addons, and I set up this website. Been doing 3D since Blender 2.8 came out in 2019, and studied it at Uni where I also got into compositing."
+  bio: "Hello! I make things like Blender Addons, and I set up this website. Been doing 3D since Blender 2.8 came out in 2019, and studied it at Uni where I also got really into compositing."
   links:
     - label: "Bluesky"
       url: "https://bsky.app/profile/kaj.blue"
