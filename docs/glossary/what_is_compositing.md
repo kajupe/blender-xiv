@@ -1,6 +1,6 @@
 ---
-title: What is Compositing?
-parent: What is _____?
+title: Compositing
+parent: Glossary
 layout: default
 nav_order: 60
 authors:
@@ -31,7 +31,7 @@ And for a more drastic example:
 As you can probably tell it's pretty powerful, but is it difficult?  
 Like every digital art it takes some learning before you get good at it, but it's really not bad. Especially not when it comes to the effects I mentioned for emulating a real camera. Just a few simple node setups can make a massive difference in that department.
 
-Here's an example of a very simple compositing setup in Blender that still makes a big difference:
+Here's an example of a relatively simple compositing setup in Blender that still makes a big difference:
 <div style="display:flex; width:100%; align-items:min-content;">
     <img src="assets/compositing_example_simple_nodes.jpg" style="flex:2 1 0%; width:0; height:auto;">
     <video src="assets/compositing_example_simple.webm" type="video/webm" autoplay loop style="flex:1 1 0%; width:0; height:auto;"></video>

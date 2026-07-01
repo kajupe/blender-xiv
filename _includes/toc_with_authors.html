@@ -1,0 +1,17 @@
+{%- assign page_collection = site.pages -%}
+{%- if page.collection -%}
+  {%- assign page_collection = site[page.collection] -%}
+{%- endif -%}
+
+{%- assign children = page_collection | where: "parent", page.title | where_not: "nav_exclude", true | sort: "nav_order" -%}
+
+<ul>
+  {%- for child in children -%}
+    <li>
+      <span><a href="{{ child.url | relative_url }}">{{ child.title }}</a> </span>
+      {%- if child.authors -%}
+      by {% for author_item in child.authors %}{% assign author = site.data.authors[author_item.key] %}{{ author.name }}{% unless forloop.last %}, {% endunless %}{% endfor %}
+      {%- endif -%}
+    </li>
+  {%- endfor -%}
+</ul>
